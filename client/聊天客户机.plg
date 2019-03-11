@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 聊天客户机 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\HP\AppData\Local\Temp\RSP7C24.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/聊天客户机.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\HP\Desktop\多线程聊天\聊天客户机\聊天客户机Dlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\HP\AppData\Local\Temp\RSP7C24.tmp" 
+Creating temporary file "C:\Users\HP\AppData\Local\Temp\RSP7C25.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/聊天客户机.pdb" /debug /machine:I386 /out:"Debug/聊天客户机.exe" /pdbtype:sept 
+".\Debug\CSocket.obj"
+".\Debug\Msg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\聊天客户机.obj"
+".\Debug\聊天客户机Dlg.obj"
+".\Debug\聊天客户机.res"
+]
+Creating command line "link.exe @C:\Users\HP\AppData\Local\Temp\RSP7C25.tmp"
+<h3>Output Window</h3>
+Compiling...
+聊天客户机Dlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+聊天客户机.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
